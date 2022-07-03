@@ -1,0 +1,37 @@
+body {
+    font-family: 'Slabo 27px', serif;
+    margin: 0;
+}
+
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+.link-btn{
+    text-decoration: none;
+    background-image:linear-gradient(orange, tomato, red);
+    /* background-image: radial-gradient(orange, tomato, red ); */
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 1000;
+}
+
+.orange-color{
+    color: orange;
+}
+
+.top-banner{
+    background-image: url('./images/top-banner.png');
+    background-repeat: no-repeat;
+}
